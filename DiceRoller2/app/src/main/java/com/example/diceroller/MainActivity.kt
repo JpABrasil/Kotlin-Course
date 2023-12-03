@@ -54,7 +54,6 @@ fun DiceRollerApp() {
     )
 }
 
-
 @Composable
 fun DiceWithButtonAndImage(modifier:Modifier = Modifier) {
     var result by remember{ mutableStateOf(1) }
